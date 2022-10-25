@@ -1,0 +1,53 @@
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+
+  color: brown;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: cyan;
+}
+p {
+  color: cyan;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.653);
+  width: 1180px;
+  height: 609px;
+}
+.fclass {
+  width: 605px;
+  height: 400px;
+
+  border-radius: 10px;
+  border-top-left-radius: 128px 121px;
+  background: rgba(59, 24, 10, 0.895);
+}
+.con {
+  display: flex;
+  height: 231px;
+}
+.con1 {
+  width: 36%;
+}
+.con2 {
+  width: 64%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.me {
+  border-radius: 50%;
+}
